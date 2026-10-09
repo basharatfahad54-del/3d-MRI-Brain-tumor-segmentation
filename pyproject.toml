@@ -39,8 +39,11 @@ brats-predict = "brats_seg.cli:predict_main"
 brats-visualize = "brats_seg.cli:visualize_main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/3D-MRI-Brain-Tumor-Segmentation"
-Issues = "https://github.com/yourusername/3D-MRI-Brain-Tumor-Segmentation/issues"
+Homepage = "https://github.com/basharatfahad54-del/3d-MRI-Brain-tumor-segmentation"
+Issues = "https://github.com/basharatfahad54-del/3d-MRI-Brain-tumor-segmentation/issues"
+LinkedIn = "https://www.linkedin.com/in/muhammad-fahad-8b6258370/"
+Upwork = "https://www.upwork.com/freelancers/~018454f81ddfcb4416"
+Fiverr = "https://www.fiverr.com/fahadvine1/"
 
 [tool.setuptools.packages.find]
 where = ["src"]

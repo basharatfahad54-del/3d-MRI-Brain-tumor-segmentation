@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12%2B-orange)
 ![License](https://img.shields.io/badge/license-BSL--1.0-green)
-![CI](https://github.com/yourusername/3D-MRI-Brain-Tumor-Segmentation/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/basharatfahad54-del/3d-MRI-Brain-tumor-segmentation/actions/workflows/ci.yml/badge.svg)
 
 An end-to-end, config-driven deep learning pipeline for **multi-class brain tumor
 segmentation** from 3D MRI scans, built around a 3D U-Net and trained on the
@@ -48,8 +48,8 @@ Raw datasets are not distributed here; download BraTS 2019 and place it under `d
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/3D-MRI-Brain-Tumor-Segmentation.git
-cd 3D-MRI-Brain-Tumor-Segmentation
+git clone https://github.com/basharatfahad54-del/3d-MRI-Brain-tumor-segmentation.git
+cd 3d-MRI-Brain-tumor-segmentation
 
 # Option A: pip
 python -m venv .venv && .venv\Scripts\activate      # Windows
@@ -192,6 +192,17 @@ TensorFlow is not installed.
 - [BraTS 2019 Challenge](https://www.med.upenn.edu/cbica/brats2019/) for the dataset and evaluation protocol.
 - Ronneberger et al., *U-Net: Convolutional Networks for Biomedical Image Segmentation* (2015).
 - Isensee et al., *nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation* (2021).
+
+## Author
+
+**Muhammad Fahad** - Full Stack AI/ML Engineer based in Pakistan.
+I build end-to-end machine learning and computer-vision systems, from data
+pipelines to deployed applications. Available for paid work and tasks.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Fahad-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-fahad-8b6258370/)
+[![Upwork](https://img.shields.io/badge/Upwork-Hire%20me-14A800?logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~018454f81ddfcb4416)
+[![Fiverr](https://img.shields.io/badge/Fiverr-fahadvine1-1DBF73?logo=fiverr&logoColor=white)](https://www.fiverr.com/fahadvine1/)
+[![GitHub](https://img.shields.io/badge/GitHub-basharatfahad54--del-181717?logo=github&logoColor=white)](https://github.com/basharatfahad54-del)
 
 ## License
 
