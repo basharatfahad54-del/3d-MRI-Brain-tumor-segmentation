@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brats-seg"
+version = "1.0.0"
+description = "3D U-Net brain tumor segmentation on the BraTS 2019 MRI dataset"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "BSL-1.0" }
+authors = [{ name = "Muhammad Fahad", email = "fahadvine@gmail.com" }]
+keywords = ["deep-learning", "medical-imaging", "mri", "segmentation", "brats", "unet", "tensorflow"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+dependencies = [
+    "numpy>=1.23",
+    "scikit-image>=0.20",
+    "scikit-learn>=1.1",
+    "matplotlib>=3.6",
+    "nibabel>=5.0",
+    "PyYAML>=6.0",
+    "tensorflow>=2.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff>=0.4", "black>=23.0"]
+
+[project.scripts]
+brats-preprocess = "brats_seg.cli:preprocess_main"
+brats-train = "brats_seg.cli:train_main"
+brats-predict = "brats_seg.cli:predict_main"
+brats-visualize = "brats_seg.cli:visualize_main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/3D-MRI-Brain-Tumor-Segmentation"
+Issues = "https://github.com/yourusername/3D-MRI-Brain-Tumor-Segmentation/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501"]

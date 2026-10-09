@@ -1,0 +1,7 @@
+numpy>=1.23
+scikit-image>=0.20
+scikit-learn>=1.1
+matplotlib>=3.6
+nibabel>=5.0
+PyYAML>=6.0
+tensorflow>=2.12
